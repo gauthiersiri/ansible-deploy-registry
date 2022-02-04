@@ -1,0 +1,12 @@
+hostname: bastion.emaila.mop.ibm
+registry:
+  image: docker.io/library/registry:2
+  port: 5000
+users:
+  - user: admin
+    password: adm1n
+  - user: emaila
+    password: pass4emaila
+# docker_io:
+#   user: DOCKERIO_USER
+#   token: DOCKERIO_TOKEN

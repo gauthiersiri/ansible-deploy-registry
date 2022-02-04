@@ -1,0 +1,7 @@
+---
+- hosts: registry
+  gather_facts: true
+  tasks:
+    - name: Deploy registry
+      import_role:
+        name: registry

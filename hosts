@@ -1,0 +1,2 @@
+[registry]
+localhost ansible_connection=local registry.host=toto tati=tutu
