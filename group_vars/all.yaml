@@ -1,4 +1,4 @@
-hostname: bastion.emaila.mop.ibm
+hostname: registry.my.domain.com
 registry:
   image: docker.io/library/registry:2
   port: 5000
