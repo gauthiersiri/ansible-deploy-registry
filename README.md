@@ -26,3 +26,9 @@ sudo ansible-playbook deploy_registry.yaml
 | users           | yes       | List of users to create on the registry. Need at least one.        |
 | docker_io.user  | no        | username to log on docker.io registry (and avoid pull rate issue)  |
 | docker_io.token | no        | token to log on docker.io registry (and avoid pull rate issue)     |
+
+# Start/stop/restart/status of the registry
+
+```shell
+sudo systemctl start|stop|restart|status local-registry
+```
